@@ -1,0 +1,9 @@
+##RAILS-2.x.x##
+#RailsBaseURI /
+#PassengerAppRoot /home/myusername/myapp
+
+##RAILS-3.x.x##
+RackBaseURI /
+PassengerAppRoot /home/wesearch/survey
+
+

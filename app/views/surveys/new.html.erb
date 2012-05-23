@@ -1,0 +1,61 @@
+ <div id="content">
+	<%= form_for @survey, :url => '/surveys' do |f| %>
+		<% if @survey.errors.any? %>
+	  <div id="errorExplanation">
+	    <h2><%= pluralize(@survey.errors.count, "error") %> prohibited
+	        this survey from being saved:</h2>
+	    <ul>
+	    <% @survey.errors.full_messages.each do |msg| %>
+	      <li><%= msg %></li>
+	    <% end %>
+	    </ul>
+	  </div>
+	  <% end %>   
+		<div id="container">
+			<div id="description">
+				<a href="http://www.standingcoin.com" id="logo"><%= image_tag "AboutUS.jpg", :height => 150 %></a>
+        <h1>Celebrity Questionaire</h1>
+        <h2>                            
+					<p>
+						<strong>Welcome to our survey. This survey will take 2 minutes of your time. Few lucky IP addresses will be rewarded.</strong>
+					</p>
+
+        </h2>
+      </div>
+      <div class="clear"></div>
+      <ul id="forms">
+			<link rel="image_src" href="http://freeonlinesurveys.com/fe-images/facebook-image.jpg" />
+			<li><div class="question"><a rel="nofollow" name=question1></a><span class="number">
+			1<em style="font-size:13px;">* </em></span><div>Please select your age category.  </div></div><div class='answer'>
+				<%= f.select :age, ['','17 or Younger', '18-25', '26-35', '36-45', '46-55', '56 or Elder']%>
+			</div></li><li><div class="question"><a rel="nofollow" name=question2></a><span class="number">2<em style="font-size:13px;">* </em></span>
+			<div>Please select your gender.  </div></div><div class='answer'>
+				<%= f.select :gender, ['','Male', 'Female']%>
+			</div></li><li><div class="question"><a rel="nofollow" name=question3></a><span class="number">
+3<em style="font-size:13px;">* </em></span>
+
+			<div>Which is your favorite Television Soap/Show?  </div></div><div class='answer'>	&nbsp;<%= f.text_area :soap, :rows=>3, :cols=>40%>
+			</div></li><li><div class="question"><a rel="nofollow" name=question4></a><span class="number">
+4</span>
+
+			<div>Who is your favorite Television Celebrity?  </div></div><div class='answer'>	
+				&nbsp;<%= f.text_area :celebrity, :rows=>3, :cols=>40%>
+			</div></li><li><div class="question"><a rel="nofollow" name=question5></a><span class="number">
+			5</span>	
+
+			<div>How would you react if you get to meet your favorite Celebrity?  </div></div><div class='answer'>
+				&nbsp;<%= f.text_area :reaction, :rows=>3, :cols=>40%>
+			</div></li><li><div class="question"><a rel="nofollow" name=question6></a><span class="number">
+			6</span>
+
+			<div>Thank You for your time. Your Responses are very much appreciated. Please leave your comments below.  </div></div><div class='answer'>
+				&nbsp;<%= f.text_area :comment, :rows=>3, :cols=>40%>
+			</div></li> </ul>
+			
+      <div id="action">	
+				<%= f.submit "Finish Survey", :class => "btn"%>
+			</div>
+       <div class="clear"></div>
+		</div>		
+	<%end%>
+</div>

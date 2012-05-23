@@ -1,0 +1,18 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+
+development:
+  adapter: mysql
+  database: wesearch_survey_production
+  username: wesearch
+  password: xjn3J2z0F9
+
+production:
+  adapter: mysql
+  database: wesearch_survey_production
+  username: wesearch
+  password: xjn3J2z0F9
+

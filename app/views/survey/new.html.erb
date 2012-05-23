@@ -1,0 +1,15 @@
+<%= form_for @survey do |f| %>
+	<%= f.label "Please select your age category."%>
+	<%= f.select :age, ['','17 or Younger', '18-25', '26-35', '36-45', '46-55', '56 or Elder']%>
+	<%= f.label "Please select your gender."%>
+	<%= f.select :gender, ['','Male', 'Female']%>
+	<%= f.label "Which is your favorite Television Soap/Show?"%>
+	<%= f.text_area :soap%>
+	<%= f.label "Who is your favorite Television Celebrity?"%>
+	<%= f.text_area :celebrity%>
+	<%= f.label "How would you react if you get to meet your favorite Celebrity?"%>
+	<%= f.text_area :reaction%>
+	<%= f.label "Thank You for your time. Your Responses are very much appreciated. Please leave your comments below."%>
+	<%= f.text_area :comment%>
+	<%= f.submit "Finish Survey"%>
+<%end%>
