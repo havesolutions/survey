@@ -871,3 +871,290 @@ Started GET "/images/bg-description.gif" for 117.207.216.64 at 2012-05-23 10:45:
 ActionController::RoutingError (No route matches "/images/bg-description.gif"):
   
 
+
+
+Started GET "/" for 117.207.216.64 at 2012-05-23 11:02:02 -0700
+  Processing by SurveysController#new as HTML
+Rendered surveys/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.gif" for 117.207.216.64 at 2012-05-23 11:02:02 -0700
+
+ActionController::RoutingError (No route matches "/images/bg.gif"):
+  
+
+
+
+Started GET "/images/btn-left-report_abuse.png" for 117.207.216.64 at 2012-05-23 11:02:02 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-left-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-content-report_abuse.png" for 117.207.216.64 at 2012-05-23 11:02:02 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-content-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-right-report_abuse.png" for 117.207.216.64 at 2012-05-23 11:02:02 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-right-report_abuse.png"):
+  
+
+
+
+Started GET "/images/bg-description.gif" for 117.207.216.64 at 2012-05-23 11:02:02 -0700
+
+ActionController::RoutingError (No route matches "/images/bg-description.gif"):
+  
+
+
+
+Started GET "/" for 1.39.245.56 at 2012-05-23 11:12:55 -0700
+  Processing by SurveysController#new as HTML
+Rendered surveys/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.gif" for 1.39.245.56 at 2012-05-23 11:13:40 -0700
+
+ActionController::RoutingError (No route matches "/images/bg.gif"):
+  
+
+
+
+Started GET "/images/btn-left-report_abuse.png" for 1.39.245.56 at 2012-05-23 11:13:40 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-left-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-content-report_abuse.png" for 1.39.245.56 at 2012-05-23 11:13:41 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-content-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-right-report_abuse.png" for 1.39.245.56 at 2012-05-23 11:13:41 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-right-report_abuse.png"):
+  
+
+
+
+Started GET "/images/bg-description.gif" for 1.39.245.56 at 2012-05-23 11:13:42 -0700
+
+ActionController::RoutingError (No route matches "/images/bg-description.gif"):
+  
+
+
+
+Started GET "/" for 42.104.15.85 at 2012-05-23 19:54:23 -0700
+  Processing by SurveysController#new as HTML
+Rendered surveys/new.html.erb within layouts/application (141.0ms)
+Completed 200 OK in 185ms (Views: 169.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.gif" for 42.104.15.85 at 2012-05-23 19:55:08 -0700
+
+ActionController::RoutingError (No route matches "/images/bg.gif"):
+  
+
+
+
+Started GET "/images/btn-left-report_abuse.png" for 42.104.15.85 at 2012-05-23 19:55:08 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-left-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-content-report_abuse.png" for 42.104.15.85 at 2012-05-23 19:55:08 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-content-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-right-report_abuse.png" for 42.104.15.85 at 2012-05-23 19:55:09 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-right-report_abuse.png"):
+  
+
+
+
+Started GET "/images/bg-description.gif" for 42.104.15.85 at 2012-05-23 19:55:09 -0700
+
+ActionController::RoutingError (No route matches "/images/bg-description.gif"):
+  
+
+
+
+Started GET "/" for 120.61.158.162 at 2012-05-23 21:55:32 -0700
+  Processing by SurveysController#new as HTML
+Rendered surveys/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 68ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.gif" for 120.61.158.162 at 2012-05-23 21:55:35 -0700
+
+ActionController::RoutingError (No route matches "/images/bg.gif"):
+  
+
+
+
+Started GET "/images/btn-left-report_abuse.png" for 120.61.158.162 at 2012-05-23 21:55:35 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-left-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-right-report_abuse.png" for 120.61.158.162 at 2012-05-23 21:55:35 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-right-report_abuse.png"):
+  
+
+
+
+Started GET "/images/bg-description.gif" for 120.61.158.162 at 2012-05-23 21:55:35 -0700
+
+ActionController::RoutingError (No route matches "/images/bg-description.gif"):
+  
+
+
+
+Started GET "/images/btn-content-report_abuse.png" for 120.61.158.162 at 2012-05-23 21:55:35 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-content-report_abuse.png"):
+  
+
+
+
+Started GET "/" for 117.204.161.137 at 2012-05-24 05:25:18 -0700
+  Processing by SurveysController#new as HTML
+Rendered surveys/new.html.erb within layouts/application (122.6ms)
+Completed 200 OK in 275ms (Views: 260.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.gif" for 117.204.161.137 at 2012-05-24 05:25:22 -0700
+
+ActionController::RoutingError (No route matches "/images/bg.gif"):
+  
+
+
+
+Started GET "/images/btn-left-report_abuse.png" for 117.204.161.137 at 2012-05-24 05:25:22 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-left-report_abuse.png"):
+  
+
+
+
+Started GET "/images/bg-description.gif" for 117.204.161.137 at 2012-05-24 05:25:22 -0700
+
+ActionController::RoutingError (No route matches "/images/bg-description.gif"):
+  
+
+
+
+Started GET "/images/btn-right-report_abuse.png" for 117.204.161.137 at 2012-05-24 05:25:22 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-right-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-content-report_abuse.png" for 117.204.161.137 at 2012-05-24 05:25:22 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-content-report_abuse.png"):
+  
+
+
+
+Started GET "/" for 117.204.161.137 at 2012-05-24 08:48:24 -0700
+  Processing by SurveysController#new as HTML
+Rendered surveys/new.html.erb within layouts/application (41.2ms)
+Completed 200 OK in 79ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.gif" for 117.204.161.137 at 2012-05-24 08:48:25 -0700
+
+ActionController::RoutingError (No route matches "/images/bg.gif"):
+  
+
+
+
+Started GET "/images/btn-content-report_abuse.png" for 117.204.161.137 at 2012-05-24 08:48:25 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-content-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-right-report_abuse.png" for 117.204.161.137 at 2012-05-24 08:48:25 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-right-report_abuse.png"):
+  
+
+
+
+Started GET "/images/bg-description.gif" for 117.204.161.137 at 2012-05-24 08:48:25 -0700
+
+ActionController::RoutingError (No route matches "/images/bg-description.gif"):
+  
+
+
+
+Started GET "/images/btn-left-report_abuse.png" for 117.204.161.137 at 2012-05-24 08:48:25 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-left-report_abuse.png"):
+  
+
+
+
+Started GET "/" for 117.204.161.137 at 2012-05-24 09:06:11 -0700
+  Processing by SurveysController#new as HTML
+Rendered surveys/new.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 54ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/bg.gif" for 117.204.161.137 at 2012-05-24 09:06:12 -0700
+
+ActionController::RoutingError (No route matches "/images/bg.gif"):
+  
+
+
+
+Started GET "/images/btn-left-report_abuse.png" for 117.204.161.137 at 2012-05-24 09:06:12 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-left-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-content-report_abuse.png" for 117.204.161.137 at 2012-05-24 09:06:12 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-content-report_abuse.png"):
+  
+
+
+
+Started GET "/images/btn-right-report_abuse.png" for 117.204.161.137 at 2012-05-24 09:06:12 -0700
+
+ActionController::RoutingError (No route matches "/images/btn-right-report_abuse.png"):
+  
+
+
+
+Started GET "/images/bg-description.gif" for 117.204.161.137 at 2012-05-24 09:06:12 -0700
+
+ActionController::RoutingError (No route matches "/images/bg-description.gif"):
+  
+
