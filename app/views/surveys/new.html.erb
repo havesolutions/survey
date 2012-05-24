@@ -1,7 +1,7 @@
  <div id="content">
 	<%= form_for @survey, :url => '/surveys' do |f| %>
 		<% if @survey.errors.any? %>
-	  <div id="errorExplanation">
+	  <div class="field_with_errors" id="errorExplanation">
 	    <h2><%= pluralize(@survey.errors.count, "error") %> prohibited
 	        this survey from being saved:</h2>
 	    <ul>
@@ -27,10 +27,10 @@
 			<link rel="image_src" href="http://freeonlinesurveys.com/fe-images/facebook-image.jpg" />
 			<li><div class="question"><a rel="nofollow" name=question1></a><span class="number">
 			1<em style="font-size:13px;">* </em></span><div>Please select your age category.  </div></div><div class='answer'>
-				<%= f.select :age, ['','17 or Younger', '18-25', '26-35', '36-45', '46-55', '56 or Elder']%>
+				<%= f.select :age, ['17 or Younger', '18-25', '26-35', '36-45', '46-55', '56 or Elder'], {:include_blank => true}%>
 			</div></li><li><div class="question"><a rel="nofollow" name=question2></a><span class="number">2<em style="font-size:13px;">* </em></span>
 			<div>Please select your gender.  </div></div><div class='answer'>
-				<%= f.select :gender, ['','Male', 'Female']%>
+			<%= f.select :gender, ['Male', 'Female'], {:include_blank => true}%>
 			</div></li><li><div class="question"><a rel="nofollow" name=question3></a><span class="number">
 3<em style="font-size:13px;">* </em></span>
 
@@ -48,7 +48,7 @@
 			</div></li><li><div class="question"><a rel="nofollow" name=question6></a><span class="number">
 			6</span>
 
-			<div>Thank You for your time. Your Responses are very much appreciated. Please leave your comments below.  </div></div><div class='answer'>
+			<div>Please leave your comments below.If any.  </div></div><div class='answer'>
 				&nbsp;<%= f.text_area :comment, :rows=>3, :cols=>40%>
 			</div></li> </ul>
 			

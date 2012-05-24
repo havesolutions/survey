@@ -214,3 +214,10 @@ div#footer a.last {
 div#footer a:hover {
 	text-decoration:underline;
 }
+
+.field_with_errors {
+       background-color: #f0a8a8;
+       border: 1px solid #aaaaaa;
+       margin: 0 0 20px 0;
+       padding: 10px
+}
